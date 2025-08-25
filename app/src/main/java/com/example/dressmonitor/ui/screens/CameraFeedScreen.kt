@@ -1,4 +1,4 @@
-package com.example.dressmonitor..ui.screens
+package com.example.dressmonitor.ui.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column

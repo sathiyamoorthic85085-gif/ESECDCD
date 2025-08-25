@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.dressmonito"
+    namespace = "com.example.dressmonitor"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.dressmonito"
+        applicationId = "com.example.dressmonitor"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

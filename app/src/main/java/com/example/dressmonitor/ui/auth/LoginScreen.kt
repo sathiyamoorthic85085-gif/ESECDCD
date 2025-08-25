@@ -25,7 +25,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.dressmonitor.ui.theme.MyApplicationTheme
+import com.example.dressmonitor.ui.theme.DressMonitorTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -85,7 +85,7 @@ fun LoginScreen(
 @Preview(showBackground = true)
 @Composable
 fun LoginScreenPreview() {
-    MyApplicationTheme {
+    DressMonitorTheme() {
         LoginScreen(onLoginClicked = { _, _ -> }, onNavigateToRegister = {})
     }
 }

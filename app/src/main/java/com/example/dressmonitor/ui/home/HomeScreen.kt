@@ -16,7 +16,11 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun HomeScreen(userName: String, onNavigate: (String) -> Unit) {
-    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp)
+    ) {
         Text(
             text = "Hello, $userName!",
             style = MaterialTheme.typography.headlineMedium,

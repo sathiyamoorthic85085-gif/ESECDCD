@@ -10,7 +10,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.dressmonitor.ui.theme.MyApplicationTheme
+import com.example.dressmonitor.ui.theme.DressMonitorTheme
 
 // Define User Roles
 enum class UserRole(val displayName: String) {
@@ -129,7 +129,7 @@ fun RegistrationScreen(
 @Preview(showBackground = true)
 @Composable
 fun RegistrationScreenPreview() {
-    MyApplicationTheme {
+    DressMonitorTheme() {
         RegistrationScreen(onRegisterClicked = { _, _, _ -> }, onNavigateToLogin = {})
     }
 }

@@ -3,7 +3,7 @@ package com.example.dressmonitor.ui.auth
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.dressmonito.data.UserRole
+import com.example.dressmonitor.data.UserRole
 import com.google.firebase.Timestamp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
