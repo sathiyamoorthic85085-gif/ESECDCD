@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "366556897165",
+    "project_id": "dress-code-detector",
+    "storage_bucket": "dress-code-detector.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366556897165:android:af988d2a397fc2bef867c4",
+        "android_client_info": {
+          "package_name": "com.example.dressmonito"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs678aEV07dZUMST7rh61x6AgD-sLd5Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
