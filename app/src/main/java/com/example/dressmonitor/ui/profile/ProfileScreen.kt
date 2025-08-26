@@ -5,7 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
-fun ProfileScreen() {
+fun ProfileScreen(onBack: () -> Boolean) {
     Text(text = "Profile Screen Content")
 }
 
@@ -13,4 +13,8 @@ fun ProfileScreen() {
 @Composable
 fun ProfileScreenPreview() {
     ProfileScreen()
+}
+
+fun ProfileScreen() {
+    TODO("Not yet implemented")
 }
