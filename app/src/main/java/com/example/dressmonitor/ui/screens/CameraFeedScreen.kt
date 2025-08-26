@@ -28,6 +28,18 @@ fun CameraFeedScreen(cameraViewModel: CameraViewModel = viewModel()) {
     val imageUrl by cameraViewModel.imageUrl.collectAsState()
     val isLoading by cameraViewModel.isLoading.collectAsState()
     val errorMessage by cameraViewModel.errorMessage.collectAsState()
+    @Composable
+    fun CameraFeedScreen(onBack: () -> Unit) {
+        Column {
+            Button(onClick = { onBack() }) {
+                Text("Back")
+            }
+
+            // TODO: Your camera preview/feed UI here
+            Text("Camera Feed Screen")
+        }
+    }
+
 
     Box(
         modifier = Modifier
